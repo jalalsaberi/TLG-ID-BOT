@@ -11,7 +11,7 @@ curl https://github.com/jalalsaberi/TLG-ID-BOT/main/tlgidbot.py > $HOME/.tlgidbo
 chmod +x $HOME/.tlgidbot.py
 clear
 echo -en "${MAGENTA}Enter your Telegram Bot Token: ${END}" && read token
-sed -i "s/TOKEN = ''/TOKEN = '$token'/" $HOME/.tlgidbot.py
+sed -i "s/TOKEN = '[^']*'/TOKEN = '$token'/" $HOME/.tlgidbot.py
 cat > "/etc/systemd/system/tlgidbot.service" << EOF
 [Unit]
 Description=Telegram ID Bot
