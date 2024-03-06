@@ -13,7 +13,10 @@
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://github.com/jalalsaberi/TLG-ID-BOT/)
 
-[<img width="15" height="15"  alt="usdt" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) USDT (TRC20): `TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6`
+[<img width="15" height="15"  alt="usdt" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) USDT (TRC20):
+```
+TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
+```
 
 ## Install & Upgrade
 
