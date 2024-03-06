@@ -23,7 +23,7 @@ TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
 1. Run this command to install the Telegram ID Bot on your server:
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/install.sh)
+apt update && apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/install.sh)
 ```
 
 2. It will prompt you to enter the Bot Token provided by BotFather. Please enter the token when prompted.
