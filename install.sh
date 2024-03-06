@@ -4,7 +4,6 @@
 MAGENTA="\e[35m"
 END="\e[0m"
 
-apt update -y
 apt install python3 python3-pip -y
 python_path=$(which python3)
 pip3 install python-telegram-bot==13.1
