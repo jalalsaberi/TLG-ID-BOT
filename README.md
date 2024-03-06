@@ -20,6 +20,12 @@ TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
 
 ## Usage
 
+You can use this bot from the link below, or you can manually run it on your own server.
+
+- Telegram Link: [Telegram ID Bot](https://t.me/TLGID_bot)
+
+- Manually:
+
 1. Run this command to install or uninstall the Telegram ID Bot on your server:
 
 ```
