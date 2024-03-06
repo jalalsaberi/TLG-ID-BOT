@@ -8,10 +8,14 @@ apt update -y
 apt install python3 python3-pip -y
 python_path=$(which python3)
 pip3 install python-telegram-bot==13.1
-if [ -z "$HOME/.tlgidbot.py" ]; then
+if [ -f "/etc/systemd/system/tlgidbot.service" ]; then
+    systemctl stop tlgidbot.service
+    systemctl disable tlgidbot.service
+    rm -f /etc/systemd/system/tlgidbot.service
     rm -f $HOME/.tlgidbot.py
+    systemctl daemon-reload
 fi
-curl https://github.com/jalalsaberi/TLG-ID-BOT/main/tlgidbot.py > $HOME/.tlgidbot.py
+curl https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/tlgidbot.py > $HOME/.tlgidbot.py
 chmod +x $HOME/.tlgidbot.py
 clear
 echo -en "${MAGENTA}Enter your Telegram Bot Token: ${END}" && read token
