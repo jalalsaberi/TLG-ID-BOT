@@ -1,4 +1,4 @@
-<img width="140" height="140"  alt="Brook" src="https://github.com/jalalsaberi/TLG-ID-BOT/blob/main/logo.png">
+<img width="140" height="140"  alt="TLG-ID-BOT" src="https://github.com/jalalsaberi/TLG-ID-BOT/blob/main/logo.png">
 
 # Telegram ID Bot
 
@@ -11,9 +11,9 @@
 
 🌟 If this project was useful to you, don't forget to give it a star 🌟
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://github.com/jalalsaberi/BrookServer/)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://github.com/jalalsaberi/TLG-ID-BOT/)
 
-[<img width="15" height="15"  alt="usdt" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/BrookServer/) USDT (TRC20): `TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6`
+[<img width="15" height="15"  alt="usdt" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) USDT (TRC20): `TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6`
 
 ## Install & Upgrade
 
@@ -33,4 +33,4 @@ bash <(curl -Ls https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/in
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/jalalsaberi/BrookServer?tab=MIT-1-ov-file) (see the LICENSE file for details)
+This project is licensed under the [MIT License](https://github.com/jalalsaberi/TLG-ID-BOT?tab=MIT-1-ov-file) (see the LICENSE file for details)
