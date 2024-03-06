@@ -18,16 +18,15 @@
 TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
 ```
 
-## Install & Upgrade
+## Usage
 
-1. Run this command to install the Telegram ID Bot on your server:
+1. Run this command to install or uninstall the Telegram ID Bot on your server:
 
 ```
 apt update && apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/install.sh)
 ```
 
-2. It will prompt you to enter the Bot Token provided by BotFather. Please enter the token when prompted.
-3. The Telegram ID Bot has been successfully installed.
+2. If you choose to install, it will prompt you to enter the Bot Token provided by BotFather. Please enter the token when prompted.
 
 ## Compatible OS
 
