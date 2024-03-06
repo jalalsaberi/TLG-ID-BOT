@@ -24,7 +24,7 @@ You can use this bot from the link below, or you can manually run it on your own
 
 [<img width="16" height="16" alt="telegram" src="https://img.icons8.com/fluency/48/telegram-app.png">](https://t.me/TLGID_bot) Telegram Link: [Telegram ID Bot](https://t.me/TLGID_bot)
 
-[<img width="16" height="16" alt="manually" src="https://img.icons8.com/3d-fluency/94/gear--v2.png">](https://t.me/TLGID_bot) Manually:
+[<img width="16" height="16" alt="manually" src="https://img.icons8.com/3d-fluency/94/gear--v2.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) Manually:
 
 1. Run this command to install or uninstall the Telegram ID Bot on your server:
 
