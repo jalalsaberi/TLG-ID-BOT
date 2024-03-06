@@ -4,14 +4,18 @@
 MAGENTA="\e[35m"
 END="\e[0m"
 
+apt update -y
 apt install python3 python3-pip -y
 python_path=$(which python3)
 pip3 install python-telegram-bot==13.1
+if [ -z "$HOME/.tlgidbot.py" ]; then
+    rm -f $HOME/.tlgidbot.py
+fi
 curl https://github.com/jalalsaberi/TLG-ID-BOT/main/tlgidbot.py > $HOME/.tlgidbot.py
 chmod +x $HOME/.tlgidbot.py
 clear
 echo -en "${MAGENTA}Enter your Telegram Bot Token: ${END}" && read token
-sed -i "s/TOKEN = '.*/TOKEN = '$token'/" $HOME/.tlgidbot.py
+sed -i "s/TOKEN = ''/TOKEN = '$token'/" $HOME/.tlgidbot.py
 cat > "/etc/systemd/system/tlgidbot.service" << EOF
 [Unit]
 Description=Telegram ID Bot
