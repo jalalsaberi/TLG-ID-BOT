@@ -23,7 +23,7 @@ def private_message(update: Update, _):
     else:
         reply_text = "⚠️ Privacy is enabled. Information cannot be displayed. ⚠️"
 
-    message.reply_text(reply_text, parse_mode='HTML')
+    message.reply_text(reply_text, parse_mode='HTML', quote=True, reply_to_message_id=message.message_id)
 
 def start(update, _):
     update.message.reply_text("Welcome to the Telegram ID Bot! 👋\nSend or Forward me a message to get Telegram ID.")
