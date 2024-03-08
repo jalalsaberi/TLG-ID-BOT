@@ -19,7 +19,7 @@ def private_message(update: Update, _):
     username = user.username if user and user.username else None
     try:
         chat = update.effective_chat.bot.get_chat(user_id)
-        user_bio = chat.bio if chat.bio else ''
+        user_bio = chat.bio if chat.bio else None
     except:
         user_bio = None
 
