@@ -17,9 +17,14 @@ def private_message(update: Update, _):
     first_name = user.first_name if user and user.first_name else ''
     last_name = user.last_name if user and user.last_name else ''
     username = user.username if user and user.username else None
+    try:
+        chat = update.effective_chat.bot.get_chat(user_id)
+        user_bio = chat.bio if chat.bio else ''
+    except:
+        user_bio = None
 
     if user_id is not None:
-        reply_text = f"👤 Name: {'<i>None</i>' if first_name is None and last_name is None else f'{first_name} {last_name}'}\n🆔 ID: <code>{user_id}</code>\n📱 Username: {'<i>None</i>' if username is None else f'@{username}'}"
+        reply_text = f"👤 Name: {'<i>None</i>' if first_name is None and last_name is None else f'{first_name} {last_name}'}\n📝 Bio: {'<i>None</i>' if user_bio is None else user_bio}\n🆔 ID: <code>{user_id}</code>\n📱 Username: {'<i>None</i>' if username is None else f'@{username}'}"
     else:
         reply_text = "⚠️ Privacy is enabled. Information cannot be displayed. ⚠️"
 
