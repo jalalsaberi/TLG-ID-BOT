@@ -32,7 +32,7 @@ You can use this bot from the link below, or you can manually run it on your ser
 1. Run this command to install or uninstall the Telegram ID Bot on your server:
 
 ```
-sudo apt update -y && sudo apt install curl -y && sudo bash <(curl -Ls https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/install.sh)
+sudo apt update -y && sudo apt install curl -y && sudo bash <(curl -Ls -4 https://raw.githubusercontent.com/jalalsaberi/TLG-ID-BOT/main/install.sh)
 ```
 
 2. If you choose to install, it will prompt you to enter the Bot Token provided by BotFather. Please enter the token when prompted.
