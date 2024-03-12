@@ -31,12 +31,16 @@ def private_message(update: Update, _):
     message.reply_text(reply_text, parse_mode='HTML', quote=True, reply_to_message_id=message.message_id)
 
 def start(update, _):
-    update.message.reply_text("Welcome to the Telegram ID Bot! 👋\nSend or Forward me a message to get Telegram ID.")
+    update.message.reply_text("Welcome to the Telegram ID Bot! 👋\n\nSend or Forward me a message to get Telegram ID.")
+
+def donate(update, _):
+    update.message.reply_text("Thank you for your support 💙\n\nDonation Link:\nhttps://nowpayments.io/donation/jalalsaberi")
 
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(CommandHandler("donate", donate))
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, private_message))
     updater.start_polling()
     updater.idle()
