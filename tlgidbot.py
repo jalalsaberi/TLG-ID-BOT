@@ -36,11 +36,15 @@ def start(update, _):
 def donate(update, _):
     update.message.reply_text("Thank you for your support 💙\n\nDonation Link:\nhttps://nowpayments.io/donation/jalalsaberi")
 
+def github(update, _):
+    update.message.reply_text("Github Link:\n\nhttps://github.com/jalalsaberi/TLG-ID-BOT")
+
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("donate", donate))
+    dp.add_handler(CommandHandler("github", github))
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, private_message))
     updater.start_polling()
     updater.idle()
