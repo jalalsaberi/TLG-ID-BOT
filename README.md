@@ -13,13 +13,13 @@
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://nowpayments.io/donation/jalalsaberi)
 
-[<img width="15" height="15"  alt="usdt-trc20" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) [<img width="15" height="15" alt="tron" src="https://www.svgrepo.com/show/428646/tron-crypto.svg">](https://github.com/jalalsaberi/TLG-ID-BOT/) USDT (TRC20):
-```
-TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
-```
 [<img width="15" height="15"  alt="usdt-bep20" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) [<img width="15" height="15" alt="binance" src="https://www.svgrepo.com/show/366901/bnb.svg">](https://github.com/jalalsaberi/TLG-ID-BOT/) USDT (BEP20):
 ```
 0x165aAc518A3c2Ca5a2108e923e767d3661FA88F3
+```
+[<img width="15" height="15"  alt="usdt-trc20" src="https://cryptocurrencyliveprices.com/img/usdt-tether.png">](https://github.com/jalalsaberi/TLG-ID-BOT/) [<img width="15" height="15" alt="tron" src="https://www.svgrepo.com/show/428646/tron-crypto.svg">](https://github.com/jalalsaberi/TLG-ID-BOT/) USDT (TRC20):
+```
+TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
 ```
 
 [<img width="18" height="18"  alt="crypto" src="https://img.icons8.com/fluency/48/exchange-money-ethereum.png">](https://nowpayments.io/donation/jalalsaberi) More Cryptocurrencies:
